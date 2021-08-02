@@ -24,7 +24,7 @@ mat6 = mod(floor(change_to_d/32), 2);
 mat7 = mod(floor(change_to_d/64), 2);
 mat8 = mod(floor(change_to_d/128), 2);
 
-%%% Calculating the Bitwise Value and Showing the Image
+%%% Calculating the Bitwise Value and Showing the Images
 for i=1:8
     k=i-1;
     X = power(2,k);
